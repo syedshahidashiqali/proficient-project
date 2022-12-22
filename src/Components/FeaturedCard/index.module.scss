@@ -1,0 +1,43 @@
+.cardWrapper {
+  margin-right: 10px;
+  .imgWrapper {
+    width: 100%;
+    height: 200px;
+    background-image: url(../../assets/card-bg.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .textWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & > h6 {
+      color: #000000;
+      font-size: 20px;
+    }
+
+    &> span {
+      color: #958B60;
+      font-size: 16px;
+      margin-bottom: 4px;
+    }
+
+    & > button {
+      background: radial-gradient(
+        100% 1068.79% at 0.22% 50%,
+        #958b60 0%,
+        #000000 100%
+      );
+      border: 1px solid #958b60;
+      font-size: 12px;
+      &:hover {
+        border-color: #958b60;
+        background: #958b60;
+        transition: all 150ms ease-in;
+      }
+    }
+  }
+}

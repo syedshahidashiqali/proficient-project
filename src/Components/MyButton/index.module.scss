@@ -1,0 +1,22 @@
+.btnWrapper > button {
+  background: #958b60;
+  border-radius: 3px;
+  border-color: transparent;
+  &:hover {
+    border: 2px solid #958b60;
+    background: transparent;
+    transition: all 150ms ease-in;
+  }
+}
+
+.btnWrapperBg button {
+  background: transparent;
+  border-radius: 3px;
+  border: 2px solid #958b60;
+  color: #ffffff;
+  &:hover {
+    border-color: #958b60;
+    background: #958b60;
+    transition: all 150ms ease-in;
+  }
+}

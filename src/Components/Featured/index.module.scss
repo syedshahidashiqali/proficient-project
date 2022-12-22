@@ -1,0 +1,11 @@
+.featuredWrapper {
+  margin-top: 2%;
+  h1 {
+    font-size: 42px;
+    text-transform: capitalize;
+
+    & > span {
+      color: #958b60;
+    }
+  }
+}
